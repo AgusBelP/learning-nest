@@ -23,10 +23,10 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reconstruir la base de datos con la semilla
+5. Popular la base de datos con la semilla
 
 ```
-docker-compose up -d
+http://localhost:3000/api/v2/seed
 ```
 
 ## Stack utilizado
